@@ -1,0 +1,23 @@
+
+<TEI version="3.3.0"
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Compact valid TEI document</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>This file is published as part of the Digital Philology module.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>No source: this is an original work.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Paragraph one is refreshingly short.</p>
+            <p>Paragraph two is even shorter.</p>
+        </body>
+    </text>
+</TEI>
