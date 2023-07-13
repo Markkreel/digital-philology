@@ -1,2 +1,2 @@
 # Exercises - Introduction to Digital Philology
-This repository is the exercises from my <b>Digital Philology Class<b>.
+This repository contains the exercises from my <b>Digital Philology Class<b>.
