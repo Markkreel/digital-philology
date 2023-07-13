@@ -1,11 +1,21 @@
+'''
+Make a list of integers with redundant items using sampling (from random import randintn;
+num1= randint(0,9)). Repeat 1000 times and build a list
+• Create a set from the list.
+'''
+
 import random
 
-redundant_list = [random.randint(0, 9) for _ in range(1000)]
+# Generating a list of integers
+num_list = [random.randint(0, 9) for i in range(1000)]
 
-unique_set = set(redundant_list)
+# Creating a set from the list
+num_set = set(num_list)
 
-# Print the results
-print(f"Original list: {redundant_list}")
-print(f"Unique set: {unique_set}")
+print(num_set)
 
-# Will only ouput a number once in the unique set
+'''
+Despite the algorithm generating 1000 instances of digits ranging from 0 to 9, 
+when we pass the list as input to the set() function, 
+it will only select unique values and organize them in a sorted manner.
+'''

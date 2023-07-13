@@ -1,5 +1,12 @@
+'''
+Create 3 lists with colors (String) and names (String):
+• Sort both lists alphabetically
+• Combine both lists
+• Forget the last element of both lists and combine them
+'''
+
 colors = ["Red", "Green", "Blue"]
-names = ["Alice", "Bob", "Charlie"]
+names = ["Hamlet", "Gertrude", "Claudius"]
 
 # Sort both lists alphabetically
 colors.sort()

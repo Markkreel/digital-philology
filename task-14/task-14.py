@@ -1,3 +1,20 @@
+'''
+Inspired by https://github.com/rougier/numpy-100/blob/master/100_Numpy_exercises.md
+
+• Create a null vector of size 10
+• Create a null vector of size 10 but the fifth value which is 1
+• Create a vector with values ranging from 10 to 49
+• Reverse a vector (first element becomes last)
+• Create a 3x3 matrix with values ranging from 0 to 8
+• Find indices of non-zero elements from [1,2,0,0,4,0]
+• Create a 3x3 identity matrix
+• Create a 3x3x3 array with random values
+• Create a 10x10 array with random values and find the minimum and maximum values
+• Create a random vector of size 30 and find the mean value
+• Create a 2d array with 1 on the border and 0 inside
+• How to add a border (filled with 0's) around an existing array?
+'''
+
 import numpy as np
 
 # Create a null vector of size 10

@@ -1,7 +1,22 @@
+'''
+Inspired by https://github.com/PrateekKumarSingh/Python/tree/master/Python%20for%20Finance/Python-for-Finance-Repo-master/03-%20General%20Pandas/Pandas-Exercises
+
+• Download the file banklist.csv from the Repository Location
+• Import pandas and read in the banklist.csv file into a dataframe called banks.
+• Show the head of the dataframe
+• What are the column names?
+• How many States (ST) are represented in this data set?
+• Get a list or array of all the states in the data set.
+• What are the top 5 states with the most failed banks?
+• What is the most common city in California for a bank to fail in?
+• How many bank names start with the letter 's' ?
+• How many bank names consist of just two words? (e.g. “First Bank” , “Bank Georgia” )
+'''
+
 import pandas as pd
 
 # Read the banklist.csv file into a dataframe called banks
-file_path = "/home/mark/Documents/digital-philology/task-15/banklist.csv"
+file_path = "/home/mark/Documents/digital-philology/task-15a/banklist.csv"
 banks = pd.read_csv(file_path)
 
 # Show the head of the dataframe
