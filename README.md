@@ -1,11 +1,5 @@
-# Introduction to Digital Philology
+# Exercises - Introduction to Digital Philology
 
-## Intro to Python
+This repository contains the exercises from my <b>Digital Philology Class<b>.
 
-### Task I
-
-### Task II
-
-### Task III
-
-## XML, TEI and Drama Mining
+> > > > > > > origin/main
